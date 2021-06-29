@@ -1,0 +1,19 @@
+### ROUTE login
+POST https://bevol.org/api/v2/login
+Content-Type: application/json
+
+{
+     "email": "akram@bevol.org",
+    "password": "123123321",
+    "source" : "universities-event"
+}
+
+### pare login
+POST http://localhost:4000/bevole/login
+Content-Type: application/json
+
+{
+     "email": "akram@bevol.org",
+    "password": "123123321",
+    "source" : "universities-event"
+}
